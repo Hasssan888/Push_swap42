@@ -1,6 +1,6 @@
 CC = cc 
 
-FLAGC = -Wall -Wextra -Werror -g -fsanitize=address
+FLAGC = -Wall -Wextra -Werror
 
 NAME = push_swap
 

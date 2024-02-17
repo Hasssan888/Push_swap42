@@ -14,7 +14,7 @@
 
 static void	declaration_100(int *offset, int *start, int *end, int size)
 {
-	(*offset) = size / 3;
+	(*offset) = 16;
 	(*start) = ((size / 2) - 1) - (*offset);
 	(*end) = ((size / 2) - 1) + (*offset);
 }

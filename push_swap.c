@@ -82,13 +82,6 @@ int	main(int ac, char **av)
 	stack_b = malloc(sizeof(t_list *));
 	*stack_b = NULL;
 	sortstack(stack_a, stack_b);
-	t_list *p = *stack_a;
-	printf("Stack_a: ");
-	while (p != NULL)
-	{
-		printf("%d ", p->data);
-		p = p->next;
-	}
 	free_stack(stack_a);
 	free_stack(stack_b);
 }
